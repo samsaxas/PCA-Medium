@@ -21,12 +21,12 @@ tab1, tab2, tab3 = st.tabs(["📊 PCA", "🌐 t-SNE", "🔍 UMAP"])
 
 with tab1:
     st.subheader("Principal Component Analysis (PCA)")
-    embed_plot(r"C:\Users\LENOVO\ML Blog\pca.html")
+    embed_plot(r"pca.html")
 
 with tab2:
     st.subheader("t-distributed Stochastic Neighbor Embedding (t-SNE)")
-    embed_plot(r"C:\Users\LENOVO\ML Blog\tSNE.html")
+    embed_plot(r"tSNE.html")
 
 with tab3:
     st.subheader("Uniform Manifold Approximation and Projection (UMAP)")
-    embed_plot(r"C:\Users\LENOVO\ML Blog\umap.html")
+    embed_plot(r"umap.html")
